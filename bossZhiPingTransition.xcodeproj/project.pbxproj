@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD4830791CC77D7100B79191 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4830781CC77D7100B79191 /* AppDelegate.swift */; };
+		CD48307B1CC77D7100B79191 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD48307A1CC77D7100B79191 /* ViewController.swift */; };
+		CD48307E1CC77D7100B79191 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD48307C1CC77D7100B79191 /* Main.storyboard */; };
+		CD4830801CC77D7100B79191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD48307F1CC77D7100B79191 /* Assets.xcassets */; };
+		CD4830831CC77D7100B79191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4830811CC77D7100B79191 /* LaunchScreen.storyboard */; };
+		CD48308E1CC77D7100B79191 /* bossZhiPingTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD48308D1CC77D7100B79191 /* bossZhiPingTransitionTests.swift */; };
+		CD4830991CC77D7100B79191 /* bossZhiPingTransitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4830981CC77D7100B79191 /* bossZhiPingTransitionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD48308A1CC77D7100B79191 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD48306D1CC77D7100B79191 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD4830741CC77D7100B79191;
+			remoteInfo = bossZhiPingTransition;
+		};
+		CD4830951CC77D7100B79191 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD48306D1CC77D7100B79191 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD4830741CC77D7100B79191;
+			remoteInfo = bossZhiPingTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD4830751CC77D7100B79191 /* bossZhiPingTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bossZhiPingTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4830781CC77D7100B79191 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD48307A1CC77D7100B79191 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD48307D1CC77D7100B79191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD48307F1CC77D7100B79191 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD4830821CC77D7100B79191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD4830841CC77D7100B79191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4830891CC77D7100B79191 /* bossZhiPingTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bossZhiPingTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD48308D1CC77D7100B79191 /* bossZhiPingTransitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bossZhiPingTransitionTests.swift; sourceTree = "<group>"; };
+		CD48308F1CC77D7100B79191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4830941CC77D7100B79191 /* bossZhiPingTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bossZhiPingTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4830981CC77D7100B79191 /* bossZhiPingTransitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bossZhiPingTransitionUITests.swift; sourceTree = "<group>"; };
+		CD48309A1CC77D7100B79191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD4830721CC77D7100B79191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4830861CC77D7100B79191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4830911CC77D7100B79191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD48306C1CC77D7100B79191 = {
+			isa = PBXGroup;
+			children = (
+				CD4830771CC77D7100B79191 /* bossZhiPingTransition */,
+				CD48308C1CC77D7100B79191 /* bossZhiPingTransitionTests */,
+				CD4830971CC77D7100B79191 /* bossZhiPingTransitionUITests */,
+				CD4830761CC77D7100B79191 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD4830761CC77D7100B79191 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD4830751CC77D7100B79191 /* bossZhiPingTransition.app */,
+				CD4830891CC77D7100B79191 /* bossZhiPingTransitionTests.xctest */,
+				CD4830941CC77D7100B79191 /* bossZhiPingTransitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD4830771CC77D7100B79191 /* bossZhiPingTransition */ = {
+			isa = PBXGroup;
+			children = (
+				CD4830781CC77D7100B79191 /* AppDelegate.swift */,
+				CD48307A1CC77D7100B79191 /* ViewController.swift */,
+				CD48307C1CC77D7100B79191 /* Main.storyboard */,
+				CD48307F1CC77D7100B79191 /* Assets.xcassets */,
+				CD4830811CC77D7100B79191 /* LaunchScreen.storyboard */,
+				CD4830841CC77D7100B79191 /* Info.plist */,
+			);
+			path = bossZhiPingTransition;
+			sourceTree = "<group>";
+		};
+		CD48308C1CC77D7100B79191 /* bossZhiPingTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD48308D1CC77D7100B79191 /* bossZhiPingTransitionTests.swift */,
+				CD48308F1CC77D7100B79191 /* Info.plist */,
+			);
+			path = bossZhiPingTransitionTests;
+			sourceTree = "<group>";
+		};
+		CD4830971CC77D7100B79191 /* bossZhiPingTransitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD4830981CC77D7100B79191 /* bossZhiPingTransitionUITests.swift */,
+				CD48309A1CC77D7100B79191 /* Info.plist */,
+			);
+			path = bossZhiPingTransitionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD4830741CC77D7100B79191 /* bossZhiPingTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD48309D1CC77D7100B79191 /* Build configuration list for PBXNativeTarget "bossZhiPingTransition" */;
+			buildPhases = (
+				CD4830711CC77D7100B79191 /* Sources */,
+				CD4830721CC77D7100B79191 /* Frameworks */,
+				CD4830731CC77D7100B79191 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bossZhiPingTransition;
+			productName = bossZhiPingTransition;
+			productReference = CD4830751CC77D7100B79191 /* bossZhiPingTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD4830881CC77D7100B79191 /* bossZhiPingTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4830A01CC77D7100B79191 /* Build configuration list for PBXNativeTarget "bossZhiPingTransitionTests" */;
+			buildPhases = (
+				CD4830851CC77D7100B79191 /* Sources */,
+				CD4830861CC77D7100B79191 /* Frameworks */,
+				CD4830871CC77D7100B79191 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD48308B1CC77D7100B79191 /* PBXTargetDependency */,
+			);
+			name = bossZhiPingTransitionTests;
+			productName = bossZhiPingTransitionTests;
+			productReference = CD4830891CC77D7100B79191 /* bossZhiPingTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD4830931CC77D7100B79191 /* bossZhiPingTransitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4830A31CC77D7100B79191 /* Build configuration list for PBXNativeTarget "bossZhiPingTransitionUITests" */;
+			buildPhases = (
+				CD4830901CC77D7100B79191 /* Sources */,
+				CD4830911CC77D7100B79191 /* Frameworks */,
+				CD4830921CC77D7100B79191 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD4830961CC77D7100B79191 /* PBXTargetDependency */,
+			);
+			name = bossZhiPingTransitionUITests;
+			productName = bossZhiPingTransitionUITests;
+			productReference = CD4830941CC77D7100B79191 /* bossZhiPingTransitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD48306D1CC77D7100B79191 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zhn;
+				TargetAttributes = {
+					CD4830741CC77D7100B79191 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CD4830881CC77D7100B79191 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD4830741CC77D7100B79191;
+					};
+					CD4830931CC77D7100B79191 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD4830741CC77D7100B79191;
+					};
+				};
+			};
+			buildConfigurationList = CD4830701CC77D7100B79191 /* Build configuration list for PBXProject "bossZhiPingTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD48306C1CC77D7100B79191;
+			productRefGroup = CD4830761CC77D7100B79191 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD4830741CC77D7100B79191 /* bossZhiPingTransition */,
+				CD4830881CC77D7100B79191 /* bossZhiPingTransitionTests */,
+				CD4830931CC77D7100B79191 /* bossZhiPingTransitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD4830731CC77D7100B79191 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4830831CC77D7100B79191 /* LaunchScreen.storyboard in Resources */,
+				CD4830801CC77D7100B79191 /* Assets.xcassets in Resources */,
+				CD48307E1CC77D7100B79191 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4830871CC77D7100B79191 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4830921CC77D7100B79191 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD4830711CC77D7100B79191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD48307B1CC77D7100B79191 /* ViewController.swift in Sources */,
+				CD4830791CC77D7100B79191 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4830851CC77D7100B79191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD48308E1CC77D7100B79191 /* bossZhiPingTransitionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4830901CC77D7100B79191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4830991CC77D7100B79191 /* bossZhiPingTransitionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD48308B1CC77D7100B79191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD4830741CC77D7100B79191 /* bossZhiPingTransition */;
+			targetProxy = CD48308A1CC77D7100B79191 /* PBXContainerItemProxy */;
+		};
+		CD4830961CC77D7100B79191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD4830741CC77D7100B79191 /* bossZhiPingTransition */;
+			targetProxy = CD4830951CC77D7100B79191 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD48307C1CC77D7100B79191 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD48307D1CC77D7100B79191 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD4830811CC77D7100B79191 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4830821CC77D7100B79191 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD48309B1CC77D7100B79191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD48309C1CC77D7100B79191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD48309E1CC77D7100B79191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = bossZhiPingTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.bossZhiPingTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD48309F1CC77D7100B79191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = bossZhiPingTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.bossZhiPingTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD4830A11CC77D7100B79191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = bossZhiPingTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.bossZhiPingTransitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bossZhiPingTransition.app/bossZhiPingTransition";
+			};
+			name = Debug;
+		};
+		CD4830A21CC77D7100B79191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = bossZhiPingTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.bossZhiPingTransitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bossZhiPingTransition.app/bossZhiPingTransition";
+			};
+			name = Release;
+		};
+		CD4830A41CC77D7100B79191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = bossZhiPingTransitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.bossZhiPingTransitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bossZhiPingTransition;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CD4830A51CC77D7100B79191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = bossZhiPingTransitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.bossZhiPingTransitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bossZhiPingTransition;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD4830701CC77D7100B79191 /* Build configuration list for PBXProject "bossZhiPingTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD48309B1CC77D7100B79191 /* Debug */,
+				CD48309C1CC77D7100B79191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD48309D1CC77D7100B79191 /* Build configuration list for PBXNativeTarget "bossZhiPingTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD48309E1CC77D7100B79191 /* Debug */,
+				CD48309F1CC77D7100B79191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD4830A01CC77D7100B79191 /* Build configuration list for PBXNativeTarget "bossZhiPingTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4830A11CC77D7100B79191 /* Debug */,
+				CD4830A21CC77D7100B79191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD4830A31CC77D7100B79191 /* Build configuration list for PBXNativeTarget "bossZhiPingTransitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4830A41CC77D7100B79191 /* Debug */,
+				CD4830A51CC77D7100B79191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD48306D1CC77D7100B79191 /* Project object */;
+}
