@@ -14,6 +14,10 @@
 		CD4830831CC77D7100B79191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4830811CC77D7100B79191 /* LaunchScreen.storyboard */; };
 		CD48308E1CC77D7100B79191 /* bossZhiPingTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD48308D1CC77D7100B79191 /* bossZhiPingTransitionTests.swift */; };
 		CD4830991CC77D7100B79191 /* bossZhiPingTransitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4830981CC77D7100B79191 /* bossZhiPingTransitionUITests.swift */; };
+		CD4830A71CC77D8F00B79191 /* bossPushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4830A61CC77D8F00B79191 /* bossPushTransition.swift */; };
+		CD4830A91CC77FAE00B79191 /* firstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4830A81CC77FAE00B79191 /* firstTableViewController.swift */; };
+		CD4830AB1CC77FB900B79191 /* secondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4830AA1CC77FB900B79191 /* secondTableViewController.swift */; };
+		CD7E66A11CC7A6FE0079F99C /* bossPopTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7E66A01CC7A6FE0079F99C /* bossPopTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		CD4830941CC77D7100B79191 /* bossZhiPingTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bossZhiPingTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4830981CC77D7100B79191 /* bossZhiPingTransitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bossZhiPingTransitionUITests.swift; sourceTree = "<group>"; };
 		CD48309A1CC77D7100B79191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4830A61CC77D8F00B79191 /* bossPushTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bossPushTransition.swift; sourceTree = "<group>"; };
+		CD4830A81CC77FAE00B79191 /* firstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstTableViewController.swift; sourceTree = "<group>"; };
+		CD4830AA1CC77FB900B79191 /* secondTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondTableViewController.swift; sourceTree = "<group>"; };
+		CD7E66A01CC7A6FE0079F99C /* bossPopTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bossPopTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				CD4830781CC77D7100B79191 /* AppDelegate.swift */,
 				CD48307A1CC77D7100B79191 /* ViewController.swift */,
+				CD4830A81CC77FAE00B79191 /* firstTableViewController.swift */,
+				CD4830AA1CC77FB900B79191 /* secondTableViewController.swift */,
+				CD4830A61CC77D8F00B79191 /* bossPushTransition.swift */,
+				CD7E66A01CC7A6FE0079F99C /* bossPopTransition.swift */,
 				CD48307C1CC77D7100B79191 /* Main.storyboard */,
 				CD48307F1CC77D7100B79191 /* Assets.xcassets */,
 				CD4830811CC77D7100B79191 /* LaunchScreen.storyboard */,
@@ -256,8 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD4830A91CC77FAE00B79191 /* firstTableViewController.swift in Sources */,
 				CD48307B1CC77D7100B79191 /* ViewController.swift in Sources */,
+				CD4830A71CC77D8F00B79191 /* bossPushTransition.swift in Sources */,
+				CD7E66A11CC7A6FE0079F99C /* bossPopTransition.swift in Sources */,
 				CD4830791CC77D7100B79191 /* AppDelegate.swift in Sources */,
+				CD4830AB1CC77FB900B79191 /* secondTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +498,7 @@
 				CD48309F1CC77D7100B79191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD4830A01CC77D7100B79191 /* Build configuration list for PBXNativeTarget "bossZhiPingTransitionTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +507,7 @@
 				CD4830A21CC77D7100B79191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD4830A31CC77D7100B79191 /* Build configuration list for PBXNativeTarget "bossZhiPingTransitionUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +516,7 @@
 				CD4830A51CC77D7100B79191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
